@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+            background: linear-gradient(135deg, #FCE8B9, #ffffff);
             overflow: hidden;
             color: white;
         }
@@ -27,12 +27,14 @@
             font-size: 3em;
             margin: 0;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            color: #251f5c;
         }
 
         p {
             font-size: 1.5em;
             margin-top: 10px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+            color: #251f5c;
         }
 
         .main-content {
@@ -76,31 +78,39 @@
             font-weight: bold;
         }
         header {
-            background-color: #333;
-            color: white;
+            background: linear-gradient(135deg, #FCE8B9, #ffffff);
+            color: #251f5c;
             padding: 10px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            font-family: Cascadia Code;
+            
         }
 
         header .logo {
             font-size: 1.5em;
             font-weight: bold;
+            
         }
 
         header nav a {
-            color: white;
-            text-decoration: none;
+            color: #251f5c;
+            text-decoration: none; 
             margin: 0 15px;
+           
         }
 
         header nav a:hover {
-            text-decoration: underline;
+            text-decoration: none;
+        }
+
+        header a {
+            text-decoration: none;
         }
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #FCE8B9, #ffffff;
+            color: #251f5c;
             text-align: center;
             padding: 10px 20px;
             margin-top: 20px;
@@ -133,7 +143,7 @@
 </head>
 <body>
     <header>
-        <div class="logo">S&F</div>
+        <a href="index.html"> <div class="logo">S&F</div></a>
         <nav>
             <a href="index.html">Anasayfa</a>
             <a href="#">Ürünler</a>
